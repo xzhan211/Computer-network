@@ -1,0 +1,40 @@
+one people team
+
+
+Xiaoyang Zhang
+B00708854
+xzhan211@binghamton.edu
+
+
+Completion status:
+all requirements are done
+1. routing table (distance vector routing)
+2. routetrace
+3. client (add/delete link, display routing table, create routetrace)
+4. two threads in one process
+
+
+Note:
+1. In my design, there are total 5 nodes + 1 client.
+   I use the same topology which mentioned in proj2 requirement.
+2. To demo my design, 5 remotes should be used:
+   node1~2: remote04
+   node3:   remote01
+   node4:   remote02
+   node5:   remote03
+   client:  remote07
+3. how to run it?
+   A: start nodes first
+      example in remote04: ./node 1
+      example in remote02: ./node 4
+   B: then start client (each time input one command)
+      example in remote07: ./client commandCode param1 param2
+      commandCode:
+      10: create route trace
+      2:  add link
+      3:  remove link
+      4:  display routing table
+      param1/2: node number, 1~5
+4. In order to save remote resource for other students,
+   I set the auto-update time slow.(1 second)
+5. I don't do too much robust design in this project, especially in client.

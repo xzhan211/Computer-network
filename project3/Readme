@@ -1,0 +1,13 @@
+name: Xiaoyang Zhang
+BN: B00708854
+All done!
+
+Note:
+In order to check easier, I add more information to display, beside standard
+output.
+
+A: running...
+Update once in 2 seconds, indicate the programm is runing.
+
+B: rest cache size >> ######
+When store a file in cache, show the rest space of cache
